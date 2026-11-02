@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/components.css" />
+    <link rel="stylesheet" href="../css/pages.css" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
+
+    <title>Contact Us - First Angle</title>
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <div class="container header__inner">
+        <div class="header__cta">
+          <div class="cta__text">
+            <h1>Let's Talk About Your Next Project</h1>
+            <p>
+              Together, we can achieve precision and excellence in surveying.
+            </p>
+            <a href="./contact.html" class="cta__btn">Contact Us</a>
+          </div>
+          <figure>
+            <img
+              class="header__img"
+              src="../assets/images/contact/header-image.png"
+              alt="hands pointing to a map"
+              loading="eager"
+              width="600"
+              height="420"
+            />
+          </figure>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <main>
+      <!-- start faq section -->
+      <section id="faq">
+        <div class="container faq-section__wrapper">
+          <div class="faq-section__header">
+            <p class="faq-section__eyebrow">FREQUENTLY ASKED QUESTIONS</p>
+            <h2>Have Questions? <br />Let's Get Your Project Moving!</h2>
+            <p>
+              Check our most common queries below or send us a quick message.
+              Our team will get back to you promptly.
+            </p>
+          </div>
+          <div class="faq-section__content">
+            <div class="faq-accordion">
+              <div class="faq-item">
+                <button class="faq-question" type="button">
+                  <span>What services do you offer?</span>
+                  <span class="faq-icon"></span>
+                </button>
+                <div class="faq-answer">
+                  <p>
+                    We provide professional surveying solutions including
+                    detailed building surveys, as-built drawings, land surveys,
+                    and consulting for contractors, designers, and architects.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" type="button">
+                  <span>How accurate are your surveys?</span>
+                  <span class="faq-icon"></span>
+                </button>
+                <div class="faq-answer">
+                  <p>
+                    Our team uses advanced tools and proven methodologies to
+                    deliver surveys with millimeter-level accuracy (up To 3″
+                    Max), ensuring reliability for design and construction.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" type="button">
+                  <span>Who are your typical clients?</span>
+                  <span class="faq-icon"></span>
+                </button>
+                <div class="faq-answer">
+                  <p>
+                    We serve contractors, real estate developers, architects,
+                    interior designers, and property owners who require precise
+                    and accurate Data.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" type="button">
+                  <span>Can you handle large or complex projects?</span>
+                  <span class="faq-icon"></span>
+                </button>
+                <div class="faq-answer">
+                  <p>
+                    Yes. From villas and apartments to malls and large
+                    commercial sites, our team has the expertise and capacity to
+                    handle projects of any size.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" type="button">
+                  <span>Why choose First Angle Group?</span>
+                  <span class="faq-icon"></span>
+                </button>
+                <div class="faq-answer">
+                  <p>
+                    With 100+ satisfied clients, we are trusted for precision,
+                    reliability, and results that keep projects moving forward
+                    without delays.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <form
+              action="https://formsubmit.co/admin@firstanglegroup.com"
+              method="POST"
+              target="_blank"
+              class="contact-form"
+            >
+              <div class="form-row two-cols">
+                <div class="form-group">
+                  <label for="contact-name">Name</label>
+                  <input
+                    name="name"
+                    type="text"
+                    id="contact-name"
+                    placeholder="Name"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-phone">Phone Number</label>
+                  <input
+                    name="phone"
+                    type="tel"
+                    id="contact-phone"
+                    placeholder="010XXXXXXXX"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Email</label>
+                <input
+                  name="email"
+                  type="email"
+                  id="contact-email"
+                  placeholder="Email Address"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Subject</label>
+                <input
+                  name="subject"
+                  type="text"
+                  id="contact-subject"
+                  placeholder="Subject"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea
+                  name="message"
+                  id="contact-message"
+                  placeholder="Your Message. We reply within 24 hours!"
+                  required
+                ></textarea>
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="New Contact Form Submission"
+                />
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_template" value="table" />
+              </div>
+
+              <button type="submit">Send a Message</button>
+
+              <a
+                href="https://wa.me/201090327864"
+                class="whatsapp-box"
+                aria-label="Contact us on WhatsApp"
+              >
+                <span>Prefer WhatsApp Instead?</span>
+                <img
+                  src="./assets/images/home/Whatsapp Contact Button.png"
+                  alt="WhatsApp"
+                />
+              </a>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- end faq section -->
+
+      <!-- start services highlight section -->
+      <section id="services-highlight" class="services-highlight">
+        <div class="container">
+          <div class="services-highlight__header">
+            <p class="services-highlight__eyebrow">EXPLORE OUR EXPERTISE</p>
+            <h2>Innovative Surveying Solutions For Every Need</h2>
+            <p class="services-highlight__intro">
+              We offer a variety of surveying services designed for accuracy and
+              reliability.
+            </p>
+          </div>
+
+          <div class="services-highlight__grid">
+            <article class="services-highlight__card">
+              <div class="services-highlight__icon">
+                <img
+                  src="../assets/images/contact/email-icon.svg"
+                  alt="email icon"
+                />
+              </div>
+              <div>
+                <h3>PRECISION SURVEYING</h3>
+                <p>Accurate surveying for all projects.</p>
+              </div>
+            </article>
+
+            <article class="services-highlight__card">
+              <div class="services-highlight__icon">
+                <img
+                  src="../assets/images/contact/phone-icon.svg"
+                  alt="phone icon"
+                />
+              </div>
+              <div>
+                <h3>AS BUILT DRAWINGS</h3>
+                <p>Detailed representation of existing structures.</p>
+              </div>
+            </article>
+
+            <article class="services-highlight__card">
+              <div class="services-highlight__icon">
+                <img
+                  src="../assets/images/contact/map-icon.svg"
+                  alt="map icon"
+                />
+              </div>
+              <div>
+                <h3>LAND SURVEYING</h3>
+                <p>Professional land surveying services available.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- end services highlight section -->
+    </main>
+    <script src="../js/include.js"></script>
+    <script src="../js/accordion.js"></script>
+  </body>
+</html>

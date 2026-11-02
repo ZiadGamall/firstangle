@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/components.css" />
+    <link rel="stylesheet" href="../css/pages.css" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
+
+    <title>Client - First Angle</title>
+  </head>
+  <body>
+    <main id="detail-page-content">
+      <section class="detail-hero client-hero">
+        <img
+          id="client-hero-image"
+          class="detail-hero__image client-hero__image"
+          src=""
+          alt=""
+        />
+      </section>
+
+      <section class="client-detail-page">
+        <div class="container client-detail-layout">
+          <div class="client-detail-main">
+            <h1 id="client-title">Client Name</h1>
+            <div id="client-meta" class="detail-meta"></div>
+
+            <section class="detail-section">
+              <h2>About The Client</h2>
+              <div class="detail-copy-box">
+                <p id="client-description"></p>
+              </div>
+            </section>
+
+            <section class="detail-section">
+              <h2>Featured Projects With The Client</h2>
+              <div class="related-projects-box">
+                <div id="featured-projects-grid" class="projects-grid"></div>
+                <a href="./projects.html" class="detail-section__cta"
+                  >View All Projects</a
+                >
+              </div>
+            </section>
+          </div>
+
+          <aside class="detail-sidebar">
+            <form
+              action="https://formsubmit.co/Admin@firstanglegroup.com"
+              method="POST"
+              class="detail-contact-form"
+            >
+              <div class="form-group">
+                <label for="detail-name">Name <span>*</span></label>
+                <input
+                  name="name"
+                  id="detail-name"
+                  type="text"
+                  placeholder="Name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="detail-phone">Phone Number <span>*</span></label>
+                <input
+                  name="phone"
+                  id="detail-phone"
+                  type="tel"
+                  placeholder="010XXXXXXXX"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="detail-email">Email <span>*</span></label>
+                <input
+                  name="email"
+                  id="detail-email"
+                  type="email"
+                  placeholder="Email Address"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="detail-subject">Subject <span>*</span></label>
+                <input
+                  name="subject"
+                  id="detail-subject"
+                  type="text"
+                  placeholder="Subject"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="detail-message">Message <span>*</span></label>
+                <textarea
+                  name="message"
+                  id="detail-message"
+                  placeholder="Your Message. We reply within 24 hours!"
+                ></textarea>
+              </div>
+
+              <input
+                type="hidden"
+                name="_subject"
+                value="New Contact Form Submission"
+              />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+
+              <button type="submit" class="detail-contact-form__submit">
+                Send A Message
+              </button>
+
+              <a href="#" class="detail-whatsapp-box">
+                <span>Prefer Whatsapp Instead?</span>
+                <img
+                  src="../assets/images/projects/Whatsapp Contact Button.png"
+                  alt="WhatsApp"
+                  width="72"
+                  height="24"
+                />
+              </a>
+            </form>
+
+            <div class="detail-help-box">
+              <h3>Need more help?</h3>
+              <p>
+                Don't hesitate to contact us for more information about company
+                or service
+              </p>
+
+              <div class="detail-help-box__item">
+                <div class="detail-help-box__icon">📞</div>
+                <div>
+                  <h4>Customer Services</h4>
+                  <p>+201090327864</p>
+                </div>
+              </div>
+
+              <div class="detail-help-box__item">
+                <div class="detail-help-box__icon">📍</div>
+                <div>
+                  <h4>Free Consultation</h4>
+                  <p>Admin@firstanglegroup.com</p>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <script src="../js/include.js"></script>
+    <script src="../js/detail-page.js"></script>
+    <script src="../js/client.js"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/components.css" />
+    <link rel="stylesheet" href="../css/pages.css" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png" />
+
+    <title>Clients - First Angle</title>
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <div class="container header__inner">
+        <div class="header__cta about-header">
+          <div class="cta__text">
+            <h1>Projects That Define Our Expertise</h1>
+            <p>
+              A selection of surveying projects delivered across Egypt, spanning
+              residential, commercial, and infrastructure developments.
+            </p>
+            <a href="./contact.html" class="cta__btn">Contact Us</a>
+          </div>
+          <figure>
+            <img
+              class="header__img"
+              src="../assets/images/clients/header-img.png"
+              alt="construction"
+              loading="eager"
+              width="600"
+              height="420"
+            />
+          </figure>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <main>
+      <section class="clients-page" aria-labelledby="clients-page-title">
+        <div class="container">
+          <div class="clients-box">
+            <div class="listing-page__toolbar">
+              <form
+                class="listing-search"
+                id="clients-search-form"
+                role="search"
+              >
+                <div class="listing-search__field">
+                  <input
+                    id="clients-search-input"
+                    class="listing-search__input"
+                    type="search"
+                    placeholder="Search here..."
+                    autocomplete="off"
+                  />
+
+                  <button
+                    class="listing-search__button"
+                    type="submit"
+                    aria-label="Search clients"
+                  >
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M21 21L16.65 16.65M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <div
+              id="clients-grid"
+              class="clients-grid"
+              aria-live="polite"
+            ></div>
+
+            <nav
+              id="clients-pagination"
+              class="listing-pagination"
+              aria-label="Clients pagination"
+            ></nav>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="../js/include.js"></script>
+    <script src="../js/listing-page.js"></script>
+    <script src="../js/clients.js"></script>
+  </body>
+</html>
